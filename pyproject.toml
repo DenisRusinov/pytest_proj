@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytest-proj"
+version = "0.1.0"
+description = ""
+authors = ["Denis Rusinov <denisrusinov30.gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+start-tests = 'tests.test_arrs:arrs'
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
